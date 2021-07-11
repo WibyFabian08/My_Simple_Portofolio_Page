@@ -68,7 +68,7 @@ const Footer = () => {
                     rel="noopener noreferrer"
                     className="text-muted mb-2"
                   >
-                    https://github.com/WibyFabian08
+                    My GitHub
                   </a>
                 </div>
               </Fade>
