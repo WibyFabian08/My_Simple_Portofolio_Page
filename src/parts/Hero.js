@@ -17,7 +17,7 @@ const Hero = () => {
         <Fade bottom>
           <div className="col-12 col-md-6 bagian-kiri">
             <div className="content-wrapper w-100 position-relative">
-              <div className="image-border w-75 position-absolute"></div>
+              <div className="image-border w-75 position-absolute d-none d-md-block"></div>
               <img src={ME} className="w-75 position-absolute" alt="" />
             </div>
           </div>
