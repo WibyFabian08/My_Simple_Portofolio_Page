@@ -21,7 +21,7 @@ const Footer = () => {
               <Fade bottom delay={500}>
                 <div className="col-6 col-md-5 text-left">
                   <h4 className="footer-logo">
-                    Wiby Fabian<span style={{ color: "#152C5B" }}> Rianto</span>
+                    Wiby Fabian Rianto
                   </h4>
                   <p className="text-muted">
                     Teruslah Belajar dengan ikhlas dan sungguh-sungguh <br />
@@ -74,7 +74,7 @@ const Footer = () => {
               </Fade>
             </div>
             <Fade bottom delay={2500}>
-              <div className="row d-flex justify-content-center mb-5">
+              <div className="row d-flex justify-content-center pb-5">
                 <p className="copyright">
                   Copyright 2021 • All rights reserved • Wiby Fabian Rianto
                 </p>

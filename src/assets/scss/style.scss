@@ -47,8 +47,8 @@
 @import "print";
 
 header {
-  background: transparent;
-  border: 1px solid #e5e5e5;
+  background-color: #2e37a4;
+  height: 80px;
 
   nav {
     .navbar-brand {
@@ -68,7 +68,7 @@ header {
           background: none;
           font-family: "Open Sans", sans-serif;
           font-weight: bold;
-          color: #152c5b;
+          color: white;
 
           &:focus {
             outline: none;
@@ -79,11 +79,29 @@ header {
   }
 }
 
-.hero {
-  margin-top: 80px;
+.atas {
+  background-color: #2e37a4;
+  position: relative;
 
+  .sunshine {
+    position: absolute;
+    top: 0;
+    background: transparent
+      linear-gradient(146.62deg, #3d47bd 17.72%, #2e37a4 56.8%);
+    opacity: 0.8;
+    height: 90%;
+    clip-path: polygon(46% 0%, 82% 0%, 67% 100%, 0% 100%);
+    width: 515px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.hero {
   .bagian-kiri {
     // position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
 
     .content-wrapper {
       height: 400px;
@@ -115,15 +133,15 @@ header {
     }
 
     button {
-      background-color: #3252df;
+      background-color: #FE721C;
       color: white;
       font-family: "Open Sans", sans-serif;
       outline: none;
       border: none;
-
+      
       &:hover {
+        background-color: #eb8b50;
         box-shadow: 0px 8px 15px 0px #3252df;
-        background-color: #4162f5;
       }
     }
   }
@@ -161,11 +179,12 @@ header {
 }
 
 .footer {
+  background-color: #161A4F;
   margin-top: 80px;
   border-top: 1px solid #e5e5e5;
 
   .footer-logo {
-    color: #3252df;
+    color: white;
     font-family: "Open Sans", "sans-serif";
     font-weight: bold;
   }
@@ -178,7 +197,7 @@ header {
 
   .title {
     font-family: "Open Sans", "sans-serif";
-    color: #152c5b;
+    color: white;
   }
 
   .copyright {
@@ -206,8 +225,6 @@ header {
     font-weight: bold;
   }
 }
-
-
 
 .main-page {
   background-color: white;

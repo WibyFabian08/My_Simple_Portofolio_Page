@@ -8,8 +8,10 @@ import Skill from '../parts/Skill';
 const MainPage = () => {
     return (
         <div className="main-page">
-            <Header></Header>
-            <Hero></Hero>
+            <div className="atas">
+                <Header></Header>
+                <Hero></Hero>
+            </div>
             <Skill></Skill>
             <Job></Job>
             <Footer></Footer>
